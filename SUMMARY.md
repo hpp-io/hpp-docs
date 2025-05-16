@@ -4,9 +4,9 @@
 
 ## Getting Started
 
-* [🦊 Connect to HPP](getting-started/connect-to-hpp.md)
 * [Network Information](getting-started/network-information.md)
 * [HPP Contracts](getting-started/hpp-contracts.md)
+* [🦊 Connect to HPP](getting-started/connect-to-hpp.md)
 
 ## Building on HPP
 

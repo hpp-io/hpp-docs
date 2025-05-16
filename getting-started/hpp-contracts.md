@@ -6,11 +6,9 @@ icon: file-contract
 
 ## Sepolia Testnet
 
-
-
 ### L1 Contracts
 
-Core HPP contract deployed on Sepolia
+Core HPP contract deployed on ETH Sepolia
 
 | Name         | Address |
 | ------------ | ------- |
