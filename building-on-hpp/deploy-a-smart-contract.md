@@ -16,16 +16,12 @@ You can deploy to HPP using Cooking Book's no-code deploy, and you can use with 
 
 ### Development Frameworks
 
-Move to [Development framework](deploy-a-smart-contract.md#development-frameworks)
+Jump to [Development framework](deploy-a-smart-contract.md#development-frameworks)
 
 ### RPC Host
 
-Move to [Network Information](../getting-started/network-information.md)
+Jump to [Network Information](../getting-started/network-information.md)
 
 ### Solidity Example Codes
 
 Move to [Solidity by Example](https://solidity-by-example.org/)
-
-\
-
-
