@@ -36,6 +36,3 @@ HPP is fully EVM-compatible, offering seamless integration with widely adopted E
 
 House Party Protocol is building the future of decentralized infrastructure—where intelligent systems, secure data, and open access converge. By collaborating with key ecosystem partners and empowering developers, HPP brings us one step closer to a world where Web3 becomes as natural and accessible as Web2.
 
-### Jump right in
-
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Network Information</strong></td><td>HPP Network</td><td></td><td></td><td><a href="getting-started/connect-to-hpp.md">connect-to-hpp.md</a></td></tr><tr><td><strong>Deploy a Smart Contract</strong></td><td></td><td></td><td></td><td><a href="building-on-hpp/deploy-a-smart-contract.md">deploy-a-smart-contract.md</a></td></tr><tr><td><strong>Run a HPP node</strong></td><td>Running your own node</td><td></td><td></td><td><a href="building-on-hpp/run-a-hpp-node.md">run-a-hpp-node.md</a></td></tr><tr><td><strong>HPP Contract</strong></td><td></td><td></td><td></td><td><a href="getting-started/hpp-contracts.md">hpp-contracts.md</a></td></tr></tbody></table>
