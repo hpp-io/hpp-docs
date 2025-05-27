@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [Network Information](getting-started/network-information.md)
-* [HPP Contracts](getting-started/hpp-contracts.md)
+* [Token Address](getting-started/hpp-contracts.md)
 * [🦊 Connect to HPP](getting-started/connect-to-hpp.md)
 
 ## Building on HPP
