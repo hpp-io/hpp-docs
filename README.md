@@ -24,7 +24,7 @@ House Party Protocol (HPP) is a cost-efficient, scalable, and developer-friendly
 
 At its core, HPP is a unified AI-powered blockchain and data infrastructure, co-developed in collaboration with Aergo, Alpha Quark (AQT), Booost, and VaaSBlock. Designed to bridge the gap between enterprise-grade systems and decentralized networks, HPP focuses on three critical pillars: trustworthy data, verifiable AI, and real-world scalability.
 
-Through its partnership with Alchemy as a Rollup-as-a-Service (RaaS) provider, HPP enables developers to quickly and easily deploy rollup nodes, accelerating the growth of an open and accessible Web3 ecosystem.
+Through its partnership with [Conduit](https://www.conduit.xyz/) as a Rollup-as-a-Service (RaaS) provider, HPP enables developers to quickly and easily deploy rollup nodes, accelerating the growth of an open and accessible Web3 ecosystem.
 
 ### Interoperability and Modularity at Scale
 
