@@ -8,26 +8,30 @@ description: How to add HPP to your wallet
 
 #### 🦊 Metamask
 
-To add HPP Sepolia as a custom network to MetaMask:
+To add HPP Sepolia as a custom network from Block explorer easy:
+
+1. Visit [Sepolia(testnet) Block explorer](https://sepolia-explorer.hpp.io/)
+2.  Click the Connect button at the top right.
+
+    ![](../.gitbook/assets/image.png)\
+
+
+To add HPP Sepolia as a custom network to MetaMask manually:
 
 1. Open the MetaMask browser extension.
 2. Open the network selection dropdown menu by clicking the dropdown button at the top of the extension.
 3. Click the Add network button.
 4. Click Add a network manually.
-5. In the Add a network manually dialog that appears, enter the following information:
-
-| Name            | value                                                                                                      |
-| --------------- | ---------------------------------------------------------------------------------------------------------- |
-| Network Name    | HPP Sepolia                                                                                                |
-| RPC Endpoint    | ????                                                                                                       |
-| Chain ID        | ????                                                                                                       |
-| Currency Symbol | ETH                                                                                                        |
-| Block Explorer  | ?                                                                                                          |
-| HPP Bridge      | [Arbitrum Bridge](https://bridge.arbitrum.io/?amount=0\&destinationChain=hpp-sepolia\&sourceChain=sepolia) |
-
+5. In the Add a network manually dialog that appears, enter the [Network Information](network-information.md)
 6. Tap the Save button to save HPP Sepolia as a network.
 
+To add HPP Sepolia as a custom network from Block explorer easy.
+
+
+
 You should now be able to connect to the HPP Sepolia testnet by selecting it from the network selection dropdown menu.
+
+
 
 ### Import HPP Token
 

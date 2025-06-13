@@ -19,5 +19,5 @@
 ## Tools
 
 * [Arbitrum Bridge](https://bridge.arbitrum.io/?destinationChain=arbitrum-sepolia\&sourceChain=sepolia\&tab=bridge)
-* [Block Explorer](https://sepolia.etherscan.io/)
-* [Faucet (ETH Sepolia)](https://www.alchemy.com/faucets/ethereum-sepolia)
+* [Block Explorer](https://sepolia-explorer.hpp.io/)
+* [Faucet (ETH Sepolia)](https://faucet.conduit.xyz/)
