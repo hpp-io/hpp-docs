@@ -20,7 +20,7 @@ layout:
 
 # Welcome House Party Protocol
 
-House Party Protocol (HPP) is a cost-efficient, scalable, and developer-friendly Layer 2 (L2) network built on the Arbitrum Orbit. Secured by Ethereum and enhanced through data availability with Celestia, HPP delivers modular and performant infrastructure for the next generation of decentralized applications.
+House Party Protocol (HPP) is a cost-efficient, scalable, and developer-friendly Layer 2 (L2) network built on the Arbitrum Orbit. Secured by Ethereum and enhanced through data availability with Eigen DA, HPP delivers modular and performant infrastructure for the next generation of decentralized applications.
 
 At its core, HPP is a unified AI-powered blockchain and data infrastructure, co-developed in collaboration with Aergo, Alpha Quark (AQT), Booost, and VaaSBlock. Designed to bridge the gap between enterprise-grade systems and decentralized networks, HPP focuses on three critical pillars: trustworthy data, verifiable AI, and real-world scalability.
 
@@ -28,7 +28,7 @@ Through its partnership with [Conduit](https://www.conduit.xyz/) as a Rollup-as-
 
 ### Interoperability and Modularity at Scale
 
-As part of the Arbitrum Orbit initiative, HPP is building a highly interoperable and modular chain architecture that supports shared liquidity, secure bridging, decentralized governance, and routine upgrades. Leveraging Celestia’s modular blockchain for data availability, HPP enhances scalability while maintaining transparency and resilience at the network level.
+As part of the Arbitrum Orbit initiative, HPP is building a highly interoperable and modular chain architecture that supports shared liquidity, secure bridging, decentralized governance, and routine upgrades. Leveraging Eigen DA for data availability, HPP enhances scalability while maintaining transparency and resilience at the network level.
 
 ### Built for Developers
 
