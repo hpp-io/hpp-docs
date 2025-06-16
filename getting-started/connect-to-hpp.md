@@ -39,7 +39,7 @@ To import HPP token to Metamask:
 2. Click the drop-down menu at the top right of the token list screen below, then click **`+ Import Token`**.
 3. Select the network “HPP Sepolia” added above.
 4. Enter the HPP token contract address : \
-   &#xNAN;**`0x8...............................................................................`** \
+   `0x9882e5DFfd3440BA5C94D01ef13F544743F2Ce94` \
    clicking **Next button**.
 5. After confirming the Token Symbol **HPP** and Decimal **18**, click the **Next button**.
 6. Click **Import** to complete.

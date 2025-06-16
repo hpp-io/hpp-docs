@@ -13,4 +13,4 @@ icon: file-contract
 
 ### L2 Token Contracts
 
-<table><thead><tr><th width="319.8359375">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td>0x...</td></tr></tbody></table>
+<table><thead><tr><th width="319.8359375">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td><a href="https://sepolia-explorer.hpp.io/token/0x9882e5DFfd3440BA5C94D01ef13F544743F2Ce94">0x9882e5DFfd3440BA5C94D01ef13F544743F2Ce94</a></td></tr></tbody></table>
