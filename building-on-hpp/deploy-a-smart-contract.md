@@ -4,7 +4,7 @@ icon: pen-to-square
 
 # Deploy a Smart Contract
 
-HPP is compatible with Arbitrum Orbit based EVM, so you can build your Dapp using Solidity language.
+HPP is compatible with Arbitrum Nitro based EVM, so you can build your Dapp using Solidity language.
 
 Choose your preferred tool and deploy your contract.
 
