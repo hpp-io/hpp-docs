@@ -6,7 +6,7 @@ icon: dev
 
 > The original version of this document is [Arbitrum Docs](https://docs.arbitrum.io/build-decentralized-apps/reference/development-frameworks).
 
-The following tools will help you develop and test your decentralized apps (dApps):
+The following tools will help you develop and test your Dapps:
 
 ### Hardhat
 
@@ -19,7 +19,3 @@ The following tools will help you develop and test your decentralized apps (dApp
 ### Truffle
 
 [Truffle](https://trufflesuite.com/) is a comprehensive suite of tools for smart contract development, providing an end-to-end solution for building, testing, debugging, and deploying on Ethereum, Arbitrum and other EVM compatible chains. It features advanced debugging capabilities, fast EVM simulation with Ganache, a user-centered design with a VS Code extension, and robust parent and child chain support. Truffle prioritizes security and partners with ConsenSys Diligence to bring continuous security to projects, providing a seamless and secure developer experience.
-
-### Thirdweb
-
-[Thirdweb SDK](https://portal.thirdweb.com/sdk) covers all aspects of the Web3 development stack, including connecting to user’s wallets, interacting with the blockchain and smart contracts, decentralized storage, authentication, and more; enabling you to build scalable and performant Web3 applications on any EVM-compatible blockchain. Out of the box, infrastructure is provided for everything required to create decentralized applications, including connection to the blockchain (RPC), decentralized storage (IPFS + pinning services), and tools to create powerful user experiences; such as gasless transactions, wallet connection components, FIAT on-ramps, data APIs, and more.
