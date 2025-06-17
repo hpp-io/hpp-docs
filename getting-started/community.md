@@ -8,9 +8,9 @@ icon: comments
 
 # Community
 
-💬Join the discussion on [Telegram](https://t.me/aergoofficial)
+💬 Join the discussion on [Telegram](https://t.me/aergoofficial)
 
-📢Stay in the loop [X (Twitter)](https://x.com/aergo_io), [Medium](https://medium.com/aergo)
+📢 Stay in the loop [X (Twitter)](https://x.com/aergo_io), [Medium](https://medium.com/aergo)
 
 📩 Reach out anytime! We’d love to hear from you.
 
