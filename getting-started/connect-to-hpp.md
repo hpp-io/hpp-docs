@@ -10,7 +10,7 @@ description: How to add HPP to your wallet
 
 To add HPP Sepolia as a custom network from Block explorer easy:
 
-1. Visit [Sepolia(testnet) Block explorer](https://sepolia-explorer.hpp.io/)
+1. Visit [HPP Sepolia(testnet) Block explorer](https://sepolia-explorer.hpp.io/)
 2.  Click the **Connect button** at the top right.
 
     ![](../.gitbook/assets/image.png)\
