@@ -3,7 +3,7 @@
 * [Welcome House Party Protocol](README.md)
   * [How HPP Works](readme/how-hpp-works.md)
   * [Noösphere](readme/noosphere.md)
-  * [ArenAI](readme/arenai.md)
+  * [Arenai](readme/arenai.md)
 
 ## Getting Started
 
