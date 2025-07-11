@@ -13,4 +13,4 @@ icon: file-contract
 
 ### L2 Token Contracts
 
-<table><thead><tr><th width="319.8359375">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td><a href="https://sepolia-explorer.hpp.io/token/0x9882e5DFfd3440BA5C94D01ef13F544743F2Ce94">0x9882e5DFfd3440BA5C94D01ef13F544743F2Ce94</a></td></tr><tr><td>WETH</td><td><a href="https://sepolia-explorer.hpp.io/address/0xd96a3b90e8AbF45E758BA7a407B3f2d1a3b6f546">0xd96a3b90e8AbF45E758BA7a407B3f2d1a3b6f546</a></td></tr></tbody></table>
+<table><thead><tr><th width="319.8359375">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td><a href="https://sepolia-explorer.hpp.io/token/0x9882e5DFfd3440BA5C94D01ef13F544743F2Ce94">0x9882e5DFfd3440BA5C94D01ef13F544743F2Ce94</a></td></tr><tr><td>WETH</td><td><a href="https://sepolia-explorer.hpp.io/address/0xd96a3b90e8AbF45E758BA7a407B3f2d1a3b6f546">0xd96a3b90e8AbF45E758BA7a407B3f2d1a3b6f546</a></td></tr><tr><td>USDC.e</td><td><a href="https://sepolia-explorer.hpp.io/token/0x401eCb1D350407f13ba348573E5630B83638E30D">0x401eCb1D350407f13ba348573E5630B83638E30D</a></td></tr></tbody></table>
