@@ -27,7 +27,9 @@ Download and install [Docker](https://www.docker.com/), ensure it is running.
 
 #### Step 1. Download chaininfo file
 
-A [`chaininfo.json`](https://api.conduit.xyz/file/getArbitrumChainInfo?network=3adca3f7-bd91-4535-aca7-7cce30c8d822\&organization=a5d362cc-9b26-4bd0-b658-08581b2e1481) file is required to run the node.
+HPP Mainnet : [chaininfo.json](https://api.conduit.xyz/file/v1/arbitrum/chaininfo/hpp-mainnet-xeajiyxsci)
+
+HPP Sepolia (Testnet) : [chaininfo.json](https://api.conduit.xyz/file/v1/arbitrum/chaininfo/hpp-sepolia-turdrv0107)
 
 #### Step 2. Run the node
 
@@ -35,9 +37,38 @@ Specify a local path to store data for running the node, determine the Arbitrum 
 
 The node should now be running and looking for peers to sync.
 
+**HPP Mainnet**
+
+{% code lineNumbers="true" %}
 ```bash
 docker run --rm -it \
-  --name=hpp-node \
+  --name=hpp-node-mainnet \
+  -v /local-directory/arbitrum:/home/user/.arbitrum \
+  -p 0.0.0.0:8547:8547 \
+  -p 0.0.0.0:8548:8548 \
+  offchainlabs/nitro-node:v3.6.7-a7c9f1e \
+  --parent-chain.connection.url=https://ethereum-rpc.publicnode.com \
+  --parent-chain.blob-client.beacon-url=https://ethereum-beacon-api.publicnode.com \
+  --chain.info-json='[{"chain-id":190415,"parent-chain-id":1,"chain-name":"conduit-orbit-deployer","chain-config":{"chainId":190415,"homesteadBlock":0,"daoForkBlock":null,"daoForkSupport":true,"eip150Block":0,"eip150Hash":"0x0000000000000000000000000000000000000000000000000000000000000000","eip155Block":0,"eip158Block":0,"byzantiumBlock":0,"constantinopleBlock":0,"petersburgBlock":0,"istanbulBlock":0,"muirGlacierBlock":0,"berlinBlock":0,"londonBlock":0,"clique":{"period":0,"epoch":0},"arbitrum":{"EnableArbOS":true,"AllowDebugPrecompiles":false,"DataAvailabilityCommittee":true,"InitialArbOSVersion":32,"InitialChainOwner":"0xF91B7476e52374dD75fb3d598C5f2D5dc019fc90","GenesisBlockNum":0}},"rollup":{"bridge":"0x9948eDFBb9e0b104bAd60393dBe79d0BC7937014","inbox":"0xE0400a87d5Ee8a2Fc1dF2aAf4B6d8f89d0B9bE55","sequencer-inbox":"0x9B26957a661bc862FA0d7eb21813Aa008d0Cc6E6","rollup":"0xf0d2960a37B33567FF7507C2d59da021277663A1","validator-utils":"0x84eA2523b271029FFAeB58fc6E6F1435a280db44","validator-wallet-creator":"0x0A5eC2286bB15893d5b8f320aAbc823B2186BA09","deployed-at":22943219}}]' \
+  --chain.name=conduit-orbit-deployer \
+  --node.feed.input.url=wss://relay-hpp-mainnet-xeajiyxsci.t.conduit.xyz \
+  --execution.forwarding-target=https://mainnet.hpp.io \
+  --node.data-availability.enable \
+  --node.data-availability.rest-aggregator.enable \
+  --node.data-availability.rest-aggregator.urls=https://das-hpp-mainnet-xeajiyxsci.t.conduit.xyz \
+  --http.api=net,web3,eth \
+  --http.corsdomain="*" \
+  --http.addr=0.0.0.0 \
+  --http.vhosts="*"
+```
+{% endcode %}
+
+**HPP Sepolia (Testnet)**
+
+{% code lineNumbers="true" %}
+```bash
+docker run --rm -it \
+  --name=hpp-node-sepolia \
   -v /local-directory/arbitrum:/home/user/.arbitrum \
   -p 0.0.0.0:8547:8547 \
   -p 0.0.0.0:8548:8548 \
@@ -56,5 +87,6 @@ docker run --rm -it \
   --http.addr=0.0.0.0 \
   --http.vhosts="*"
 ```
+{% endcode %}
 
 HPP generates blocks only when there are transactions to process. So if you don't see new blocks coming in, it just means there's no transaction activity - your node is still syncing correctly.
