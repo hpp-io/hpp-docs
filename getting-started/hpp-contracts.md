@@ -13,7 +13,7 @@ icon: file-contract
 
 ### HPP Mainnet Token Contracts
 
-<table><thead><tr><th width="150.35546875">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td>0xB48334E7938367bC24Fe1F19000D6f06C622E6c7</td></tr><tr><td>WETH</td><td>0x82553CDA0bEd9262a879F9F7524cd20288B357AA</td></tr><tr><td>WETH Gateway</td><td>0x2cb68758b5aFbB961B685B4BE8ba04DcB04B6f07</td></tr><tr><td>USDC.e</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="150.35546875">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td>0xB48334E7938367bC24Fe1F19000D6f06C622E6c7</td></tr><tr><td>WETH</td><td>0x82553CDA0bEd9262a879F9F7524cd20288B357AA</td></tr><tr><td>WETH Gateway</td><td>0x2cb68758b5aFbB961B685B4BE8ba04DcB04B6f07</td></tr><tr><td>USDC.e</td><td>0x401eCb1D350407f13ba348573E5630B83638E30D</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="HPP Sepolia (testnet)" %}
