@@ -10,7 +10,25 @@
 * [Network Information](getting-started/network-information.md)
 * [Token Address](getting-started/hpp-contracts.md)
 * [🦊 Connect to HPP](getting-started/connect-to-hpp.md)
-* [Community](getting-started/community.md)
+
+## Community
+
+* [Official Links](community/official-links.md)
+* [Migration Guides](community/migration-guides.md)
+* [Bridge](community/bridge.md)
+* [Airdrop](community/airdrop.md)
+* [Tokenomics](community/tokenomics.md)
+* [DAO](community/dao.md)
+
+***
+
+* [Community](community-1/README.md)
+  * [Migration Guide](community-1/migration-guide.md)
+  * [Bridge](community-1/bridge.md)
+  * [Airdrop](community-1/airdrop.md)
+  * [Tokenomics](community-1/tokenomics.md)
+  * [DAO](community-1/dao.md)
+  * [Migration Guide](community-1/migration-guide-1.md)
 
 ## Building on HPP
 

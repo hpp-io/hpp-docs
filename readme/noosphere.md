@@ -6,7 +6,7 @@ description: A Gateway to Verifiable Off-Chain Intelligence
 
 Smart contracts are powerful but limited — they can’t think, adapt, or process complex real-world data. As Web3 intersects with AI, RWA, and scientific computation, this becomes a major bottleneck. Noosphere introduces a verifiable off-chain intelligence layer, enabling smart contracts to securely delegate inference and computation
 
-## Limitations of Smart Contracts <a href="#id-4805" id="id-4805"></a>
+### Limitations of Smart Contracts <a href="#id-4805" id="id-4805"></a>
 
 Smart contracts revolutionized the game by introducing decentralized, deterministic, and transparent automation. But as the use cases for Web3 evolve, touching AI, real-world assets, and scientific modeling, those same design principles begin to feel limiting.
 
@@ -32,7 +32,7 @@ Press enter or click to view image in full size
 
 That’s where Noosphere comes in. It enables smart contracts to securely delegate off-chain computation to verifiable agents, bridging the gap between on-chain determinism and off-chain intelligence. With Noosphere, decentralized applications can reason, adapt, and act intelligently without sacrificing decentralization, privacy, or auditability.
 
-## What Noosphere Enables <a href="#id-2c8e" id="id-2c8e"></a>
+### What Noosphere Enables <a href="#id-2c8e" id="id-2c8e"></a>
 
 With Noosphere, developers can:
 
@@ -43,7 +43,7 @@ With Noosphere, developers can:
 
 By serving as a decentralized coordination and verification layer for off-chain logic, Noosphere upgrades the capabilities of smart contracts across all major sectors.
 
-## **Real-World Applications** <a href="#id-40ec" id="id-40ec"></a>
+### **Real-World Applications** <a href="#id-40ec" id="id-40ec"></a>
 
 * **DeFAI Agents (via ArenAI):** Agents powered by off-chain AI models that autonomously allocate assets, hedge risks, or rebalance portfolios across chains, integrated directly into DeFi.
 * **DeSci Protocols:** Scientific research platforms can outsource high-performance modeling (e.g. protein folding, climate simulation) to Noosphere agents.

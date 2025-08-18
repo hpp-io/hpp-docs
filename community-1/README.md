@@ -3,6 +3,7 @@ description: >-
   Stay plugged in to the HPP community. Whether you're coding agents, training
   models, or just curious what decentralized AI is all about, you’re in the
   right place. Join our official channels:
+hidden: true
 icon: comments
 ---
 
@@ -19,4 +20,6 @@ icon: comments
 * Partnerships – partner@hpp.io
 
 Let’s build something amazing together.
+
+
 
