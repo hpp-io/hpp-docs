@@ -7,7 +7,9 @@ icon: file-contract
 
 {% tabs %}
 {% tab title="HPP Mainnet" %}
-## Ethereum Token Contracts
+## HPP Mainnet
+
+### Ethereum Token Contracts
 
 <table><thead><tr><th width="149.59375">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td><a href="https://etherscan.io/token/0xe33fbe7584eb79e2673abe576b7ac8c0de62565c">0xe33fbE7584EB79e2673abe576B7AC8C0De62565c</a></td></tr><tr><td>WETH</td><td><a href="https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2">0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2</a></td></tr><tr><td>WETH Gateway</td><td><a href="https://etherscan.io/address/0x8f10926536478dabff58a748c54385a346830546">0x8f10926536478dabff58A748C54385a346830546</a></td></tr></tbody></table>
 
