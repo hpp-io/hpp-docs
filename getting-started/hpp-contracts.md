@@ -9,11 +9,11 @@ icon: file-contract
 {% tab title="HPP Mainnet" %}
 ### Ethereum Token Contracts
 
-<table><thead><tr><th width="149.59375">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td><a href="https://etherscan.io/token/0xe33fbe7584eb79e2673abe576b7ac8c0de62565c">0xe33fbE7584EB79e2673abe576B7AC8C0De62565c</a></td></tr><tr><td>WETH</td><td><a href="https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2">0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2</a></td></tr><tr><td>WETH Gateway</td><td><a href="https://app.gitbook.com/o/SO8h5IOmucs1fpTBSN8y/s/x4JVknTaBemC2h8gndSH/">0x8f10926536478dabff58A748C54385a346830546</a></td></tr></tbody></table>
+<table><thead><tr><th width="149.59375">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td><a href="https://etherscan.io/token/0xe33fbe7584eb79e2673abe576b7ac8c0de62565c">0xe33fbE7584EB79e2673abe576B7AC8C0De62565c</a></td></tr><tr><td>WETH</td><td><a href="https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2">0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2</a></td></tr><tr><td>WETH Gateway</td><td><a href="https://etherscan.io/address/0x8f10926536478dabff58a748c54385a346830546">0x8f10926536478dabff58A748C54385a346830546</a></td></tr></tbody></table>
 
 ### HPP Mainnet Token Contracts
 
-<table><thead><tr><th width="150.35546875">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td>0xB48334E7938367bC24Fe1F19000D6f06C622E6c7</td></tr><tr><td>WETH</td><td>0x82553CDA0bEd9262a879F9F7524cd20288B357AA</td></tr><tr><td>WETH Gateway</td><td>0x2cb68758b5aFbB961B685B4BE8ba04DcB04B6f07</td></tr><tr><td>USDC.e</td><td>0x401eCb1D350407f13ba348573E5630B83638E30D</td></tr></tbody></table>
+<table><thead><tr><th width="150.35546875">Name</th><th>Address</th></tr></thead><tbody><tr><td>HPP</td><td><a href="https://explorer.hpp.io/token/0xB48334E7938367bC24Fe1F19000D6f06C622E6c7">0xB48334E7938367bC24Fe1F19000D6f06C622E6c7</a></td></tr><tr><td>WETH</td><td><a href="https://explorer.hpp.io/address/0x82553CDA0bEd9262a879F9F7524cd20288B357AA">0x82553CDA0bEd9262a879F9F7524cd20288B357AA</a></td></tr><tr><td>WETH Gateway</td><td><a href="https://explorer.hpp.io/address/0x2cb68758b5aFbB961B685B4BE8ba04DcB04B6f07">0x2cb68758b5aFbB961B685B4BE8ba04DcB04B6f07</a></td></tr><tr><td>USDC.e</td><td><a href="https://explorer.hpp.io/token/0x401eCb1D350407f13ba348573E5630B83638E30D">0x401eCb1D350407f13ba348573E5630B83638E30D</a></td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="HPP Sepolia (testnet)" %}
