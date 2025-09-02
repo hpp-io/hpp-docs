@@ -25,7 +25,7 @@ To add HPP Mainnet as a custom network to MetaMask manually:
 3. Click the **Add network** button.
 4. Click **Add** a network manually.
 5. In the Add a network manually dialog that appears, enter the [Network Information](network-information.md)
-6. Tap the **Save** button to save HPP Sepolia as a network.
+6. Tap the **Save** button to save HPP Mainnet as a network.
 
 
 
