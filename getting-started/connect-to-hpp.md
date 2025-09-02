@@ -10,7 +10,7 @@ description: How to add HPP to your wallet
 
 #### 🦊 Metamask
 
-To add HPP Sepolia as a custom network from Block explorer easy:
+To add HPP Mainnet as a custom network from Block explorer easy:
 
 1. Visit [HPP Mainnet Block explorer](https://explorer.hpp.io/)
 2.  Click the **Connect button** at the top right.
@@ -18,7 +18,7 @@ To add HPP Sepolia as a custom network from Block explorer easy:
     ![](../.gitbook/assets/image.png)\
 
 
-To add HPP Sepolia as a custom network to MetaMask manually:
+To add HPP Mainnet as a custom network to MetaMask manually:
 
 1. Open the **MetaMask** browser extension.
 2. Open the **network selection dropdown menu** by clicking the dropdown button at the top of the extension.
@@ -29,7 +29,7 @@ To add HPP Sepolia as a custom network to MetaMask manually:
 
 
 
-You should now be able to connect to the HPP Sepolia testnet by selecting it from the network selection dropdown menu.
+You should now be able to connect to the HPP Mainnet testnet by selecting it from the network selection dropdown menu.
 
 
 
