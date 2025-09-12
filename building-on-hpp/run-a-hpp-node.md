@@ -65,17 +65,62 @@ docker run --rm -it \
 
 **HPP Sepolia (Testnet)**
 
+1. generate EigenDA Proxy environment
+
+```bash
+# EigenDA Proxy - .env
+EIGENDA_PROXY_EIGENDA_DISPERSER_RPC=disperser-testnet-sepolia.eigenda.xyz:443
+EIGENDA_PROXY_EIGENDA_STATUS_QUERY_INTERVAL=5s
+EIGENDA_PROXY_EIGENDA_STATUS_QUERY_TIMEOUT=2400s
+EIGENDA_PROXY_EIGENDA_ETH_RPC=https://ethereum-sepolia-rpc.publicnode.com
+EIGENDA_PROXY_EIGENDA_SERVICE_MANAGER_ADDR=0x3a5acf46ba6890B8536420F4900AC9BC45Df4764
+
+```
+
+2. generate docker-compose.yml
+
+```yaml
+version: '3.8'
+services:
+  eigenda-proxy:
+    image: ghcr.io/layr-labs/eigenda-proxy:v1.8.2
+    ports:
+      - "3100:3100"
+    env_file:
+      - .env
+    command: [
+      "--addr", "0.0.0.0",
+      "--port", "3100",
+      "--api-enabled", "admin"
+    ]
+```
+
+3. run EigenDA Proxy
+
+```
+docker compose -p eigenda-proxy up -d
+
+# status
+curl http://localhost:3100/admin/eigenda-dispersal-backend
+{"eigenDADispersalBackend":"V1"}
+```
+
+4. run EigenDA Nitro Node
+
 {% code lineNumbers="true" %}
 ```bash
-docker run --rm -it \
+#  add bellow key in "--chain.info-json="
+# "eigen-da":{"enable": true,"rpc": "http://localhost:3100"}
+
+docker run -d \
   --name=hpp-node-sepolia \
-  -v /local-directory/arbitrum:/home/user/.arbitrum \
+  -v /blockchain/arbitrum:/home/user/.arbitrum \
   -p 0.0.0.0:8547:8547 \
   -p 0.0.0.0:8548:8548 \
-  offchainlabs/nitro-node:v3.6.7-a7c9f1e \
+  ghcr.io/layr-labs/nitro/nitro-node:v3.5.7 \
   --parent-chain.connection.url=https://ethereum-sepolia-rpc.publicnode.com \
   --parent-chain.blob-client.beacon-url=https://ethereum-sepolia-beacon-api.publicnode.com \
-  --chain.info-json='[{"chain-id":181228,"parent-chain-id":11155111,"chain-name":"conduit-orbit-deployer","chain-config":{"chainId":181228,"homesteadBlock":0,"daoForkBlock":null,"daoForkSupport":true,"eip150Block":0,"eip150Hash":"0x0000000000000000000000000000000000000000000000000000000000000000","eip155Block":0,"eip158Block":0,"byzantiumBlock":0,"constantinopleBlock":0,"petersburgBlock":0,"istanbulBlock":0,"muirGlacierBlock":0,"berlinBlock":0,"londonBlock":0,"clique":{"period":0,"epoch":0},"arbitrum":{"EnableArbOS":true,"AllowDebugPrecompiles":false,"DataAvailabilityCommittee":true,"InitialArbOSVersion":32,"InitialChainOwner":"0x3324DC1E72Ee0C0D0483503B5d36A592bfC862D9","GenesisBlockNum":0}},"rollup":{"bridge":"0x1DDe0F57E7889B6866505634E58E3057b01dfed0","inbox":"0xAAD45a7bF65b43E56767CdE3Ab84A5433c714Afc","sequencer-inbox":"0x7A6398deA2adc6fe4A3cfBA3352840bB03e440d3","rollup":"0x60b33120F5572608CC33c5C3a40c992987B59Edc","validator-utils":"0x9d502DD38E6E7FBdd3b7e964345d544ec37f1D72","validator-wallet-creator":"0x684A827456373a0C0379B1C82BA31Ee5E4F88F62","deployed-at":8539104}}]' \
+  --chain.info-json='[{"chain-id":181228,"parent-chain-id":11155111,"chain-name":"conduit-orbit-deployer","chain-config":{"chainId":181228,"homesteadBlock":0,"daoForkBlock":null,"daoForkSupport":true,"eip150Block":0,"eip150Hash":"0x0000000000000000000000000000000000000000000000000000000000000000","eip155Block":0,"eip158Block":0,"byzantiumBlock":0,"constantinopleBlock":0,"petersburgBlock":0,"istanbulBlock":0,"muirGlacierBlock":0,"berlinBlock":0,"londonBlock":0,"clique":{"period":0,"epoch":0},"arbitrum":{"EnableArbOS":true,"AllowDebugPrecompiles":false,"DataAvailabilityCommittee":true,"InitialArbOSVersion":32,"InitialChainOwner":"0x3324DC1E72Ee0C0D0483503B5d36A592bfC862D9","GenesisBlockNum":0}},"rollup":{"bridge":"0x1DDe0F57E7889B6866505634E58E3057b01dfed0","inbox":"0xAAD45a7bF65b43E56767CdE3Ab84A5433c714Afc","sequencer-inbox":"0x7A6398deA2adc6fe4A3cfBA3352840bB03e440d3","rollup":"0x60b33120F5572608CC33c5C3a40c992987B59Edc","validator-utils":"0x9d502DD38E6E7FBdd3b7e964345d544ec37f1D72","validator-wallet-creator":"0x684A827456373a0C0379B1C82BA31Ee5E4F88F62","deployed-at":8539104},"eigen-da":{"enable": true,"rpc": "http://localhost:3100"} }]' \
   --chain.name=conduit-orbit-deployer \
   --node.feed.input.url=wss://relay-hpp-sepolia-turdrv0107.t.conduit.xyz \
   --execution.forwarding-target=https://rpc-hpp-sepolia-turdrv0107.t.conduit.xyz \
