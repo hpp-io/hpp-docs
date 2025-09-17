@@ -47,9 +47,7 @@ EIGENDA_PROXY_EIGENDA_SERVICE_MANAGER_ADDR=0x870679E138bCdf293b7Ff14dD44b70FC97e
 
 Replace your rpc urls :
 
-* ```
-  EIGENDA_PROXY_EIGENDA_ETH_RPC
-  ```
+* EIGENDA\_PROXY\_EIGENDA\_ETH\_RPC
 
 2. generate docker-compose.yml
 
