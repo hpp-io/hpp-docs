@@ -25,19 +25,13 @@ Please note that:
 
 Download and install [Docker](https://www.docker.com/), ensure it is running.
 
-#### Step 1. Download chaininfo file
-
-HPP Mainnet : [chaininfo.json](https://api.conduit.xyz/file/v1/arbitrum/chaininfo/hpp-mainnet-xeajiyxsci)
-
-HPP Sepolia (Testnet) : [chaininfo.json](https://api.conduit.xyz/file/v1/arbitrum/chaininfo/hpp-sepolia-turdrv0107)
-
-#### Step 2. Run the node
+#### Run the node
 
 Specify a local path to store data for running the node, determine the Arbitrum Nitro version, and then execute it. The contents of the `chaininfo.json` file downloaded above have been included in the docker run command.
 
 The node should now be running and looking for peers to sync.
 
-**HPP Mainnet**
+#### **HPP Mainnet**
 
 {% code lineNumbers="true" %}
 ```bash
@@ -63,7 +57,7 @@ docker run --rm -it \
 ```
 {% endcode %}
 
-**HPP Sepolia (Testnet)**
+#### **HPP Sepolia (Testnet)**
 
 1. generate EigenDA Proxy environment
 
@@ -97,7 +91,7 @@ services:
 
 3. run EigenDA Proxy
 
-```
+```bash
 docker compose -p eigenda-proxy up -d
 
 # status
@@ -105,32 +99,76 @@ curl http://localhost:3100/admin/eigenda-dispersal-backend
 {"eigenDADispersalBackend":"V1"}
 ```
 
-4. run EigenDA Nitro Node
+4. generate and edit hpp-sepolia-node-config.json
+
+{% file src="../.gitbook/assets/hpp-sepolia-node-config.json" %}
+
+```json
+{
+  "chain": {
+    "info-json": "[{\"chain-id\":181228,\"parent-chain-id\":11155111,\"chain-name\":\"conduit-orbit-deployer\",\"chain-config\":{\"chainId\":181228,\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":true,\"InitialArbOSVersion\":32,\"InitialChainOwner\":\"0x3324DC1E72Ee0C0D0483503B5d36A592bfC862D9\",\"GenesisBlockNum\":0}},\"rollup\":{\"bridge\":\"0x1DDe0F57E7889B6866505634E58E3057b01dfed0\",\"inbox\":\"0xAAD45a7bF65b43E56767CdE3Ab84A5433c714Afc\",\"sequencer-inbox\":\"0x7A6398deA2adc6fe4A3cfBA3352840bB03e440d3\",\"rollup\":\"0x60b33120F5572608CC33c5C3a40c992987B59Edc\",\"validator-utils\":\"0x9d502DD38E6E7FBdd3b7e964345d544ec37f1D72\",\"validator-wallet-creator\":\"0x684A827456373a0C0379B1C82BA31Ee5E4F88F62\",\"deployed-at\":8539104} }]",
+    "name": "conduit-orbit-deployer"
+  },
+  "parent-chain": {
+    "connection": {
+      "url": "https://ethereum-sepolia-rpc.publicnode.com"
+    },
+    "blob-client": {
+      "beacon-url": "https://ethereum-sepolia-beacon-api.publicnode.com"
+    }
+  },
+  "node": {
+    "feed": {
+      "input": {
+        "url": "wss://relay-hpp-sepolia-turdrv0107.t.conduit.xyz"
+      }
+    },
+    "batch-poster": {
+      "enable-eigenda-failover": true
+    },
+    "eigen-da": {
+      "enable": true,
+      "rpc": "http://localhost:3100"
+    },
+    "data-availability": {
+      "enable": true,
+      "rest-aggregator": {
+          "enable": true,
+          "urls": "https://das-hpp-sepolia-turdrv0107.t.conduit.xyz"
+      }
+    }
+  },
+  "execution": {
+    "forwarding-target": "https://rpc-hpp-sepolia-turdrv0107.t.conduit.xyz"
+  },
+  "http": {
+    "api": "net,web3,eth",
+    "corsdomain": "*",
+    "addr": "0.0.0.0",
+    "vhosts": "*"
+  }
+}
+```
+
+Replace your rpc and node urls :
+
+* parent-chain.connection.url
+* parent-chain.blob-client
+* node.eigen-da.rpc
+
+
+
+5. run EigenDA Nitro Node
 
 {% code lineNumbers="true" %}
 ```bash
-#  add bellow key in "--chain.info-json="
-# "eigen-da":{"enable": true,"rpc": "http://localhost:3100"}
-
-docker run -d \
-  --name=hpp-node-sepolia \
-  -v /blockchain/arbitrum:/home/user/.arbitrum \
-  -p 0.0.0.0:8547:8547 \
-  -p 0.0.0.0:8548:8548 \
+docker run --rm -it \
+  --name hpp-node-sepolia \
+  -v ./hpp-sepolia-node-config.json:/config/nodeConfig.json \
+  -v ./hpp-sepolia:/home/user/.arbitrum \
+  -p 8547:8547 -p 8548:8548 \
   ghcr.io/layr-labs/nitro/nitro-node:v3.5.7 \
-  --parent-chain.connection.url=https://ethereum-sepolia-rpc.publicnode.com \
-  --parent-chain.blob-client.beacon-url=https://ethereum-sepolia-beacon-api.publicnode.com \
-  --chain.info-json='[{"chain-id":181228,"parent-chain-id":11155111,"chain-name":"conduit-orbit-deployer","chain-config":{"chainId":181228,"homesteadBlock":0,"daoForkBlock":null,"daoForkSupport":true,"eip150Block":0,"eip150Hash":"0x0000000000000000000000000000000000000000000000000000000000000000","eip155Block":0,"eip158Block":0,"byzantiumBlock":0,"constantinopleBlock":0,"petersburgBlock":0,"istanbulBlock":0,"muirGlacierBlock":0,"berlinBlock":0,"londonBlock":0,"clique":{"period":0,"epoch":0},"arbitrum":{"EnableArbOS":true,"AllowDebugPrecompiles":false,"DataAvailabilityCommittee":true,"InitialArbOSVersion":32,"InitialChainOwner":"0x3324DC1E72Ee0C0D0483503B5d36A592bfC862D9","GenesisBlockNum":0}},"rollup":{"bridge":"0x1DDe0F57E7889B6866505634E58E3057b01dfed0","inbox":"0xAAD45a7bF65b43E56767CdE3Ab84A5433c714Afc","sequencer-inbox":"0x7A6398deA2adc6fe4A3cfBA3352840bB03e440d3","rollup":"0x60b33120F5572608CC33c5C3a40c992987B59Edc","validator-utils":"0x9d502DD38E6E7FBdd3b7e964345d544ec37f1D72","validator-wallet-creator":"0x684A827456373a0C0379B1C82BA31Ee5E4F88F62","deployed-at":8539104},"eigen-da":{"enable": true,"rpc": "http://localhost:3100"} }]' \
-  --chain.name=conduit-orbit-deployer \
-  --node.feed.input.url=wss://relay-hpp-sepolia-turdrv0107.t.conduit.xyz \
-  --execution.forwarding-target=https://rpc-hpp-sepolia-turdrv0107.t.conduit.xyz \
-  --node.data-availability.enable \
-  --node.data-availability.rest-aggregator.enable \
-  --node.data-availability.rest-aggregator.urls=https://das-hpp-sepolia-turdrv0107.t.conduit.xyz \
-  --http.api=net,web3,eth \
-  --http.corsdomain="*" \
-  --http.addr=0.0.0.0 \
-  --http.vhosts="*"
+  --conf.file /config/nodeConfig.json
 ```
 {% endcode %}
 
