@@ -99,9 +99,7 @@ curl http://localhost:3100/admin/eigenda-dispersal-backend
 {"eigenDADispersalBackend":"V1"}
 ```
 
-4. generate and edit hpp-sepolia-node-config.json
-
-{% file src="../.gitbook/assets/hpp-sepolia-node-config.json" %}
+4. generate and edit hpp-sepolia-node-config.json \[or [download](https://app.gitbook.com/u/dbacV3f6GsU32oogeGrbtOyQ7PH3)]
 
 ```json
 {
