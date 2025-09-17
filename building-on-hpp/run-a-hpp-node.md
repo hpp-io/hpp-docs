@@ -36,7 +36,7 @@ The node should now be running and looking for peers to sync.
 1. generate EigenDA Proxy environment
 
 ```bash
-# EigenDA Proxy - .env
+# EigenDA Proxy - .env.eigenda.mainnet
 EIGENDA_PROXY_EIGENDA_DISPERSER_RPC=disperser.eigenda.xyz:443
 EIGENDA_PROXY_EIGENDA_STATUS_QUERY_INTERVAL=5s
 EIGENDA_PROXY_EIGENDA_STATUS_QUERY_TIMEOUT=2400s
@@ -44,6 +44,12 @@ EIGENDA_PROXY_EIGENDA_ETH_RPC=https://ethereum-rpc.publicnode.com
 EIGENDA_PROXY_EIGENDA_SERVICE_MANAGER_ADDR=0x870679E138bCdf293b7Ff14dD44b70FC97e12fc0
 
 ```
+
+Replace your rpc urls :
+
+* ```
+  EIGENDA_PROXY_EIGENDA_ETH_RPC
+  ```
 
 2. generate docker-compose.yml
 
@@ -55,7 +61,7 @@ services:
     ports:
       - "3100:3100"
     env_file:
-      - .env
+      - .env.eigenda.mainnet
     command: [
       "--addr", "0.0.0.0",
       "--port", "3100",
@@ -147,7 +153,7 @@ docker run --rm -it \
 1. generate EigenDA Proxy environment
 
 ```bash
-# EigenDA Proxy - .env
+# EigenDA Proxy - .env.eigenda.sepolia
 EIGENDA_PROXY_EIGENDA_DISPERSER_RPC=disperser-testnet-sepolia.eigenda.xyz:443
 EIGENDA_PROXY_EIGENDA_STATUS_QUERY_INTERVAL=5s
 EIGENDA_PROXY_EIGENDA_STATUS_QUERY_TIMEOUT=2400s
@@ -166,7 +172,7 @@ services:
     ports:
       - "3100:3100"
     env_file:
-      - .env
+      - .env.eigenda.sepolia
     command: [
       "--addr", "0.0.0.0",
       "--port", "3100",
