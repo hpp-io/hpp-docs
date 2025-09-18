@@ -1,4 +1,5 @@
 ---
+description: Instructions about how to run a HPP Node.
 icon: circle-nodes
 ---
 
@@ -23,13 +24,17 @@ Please note that:
 
 ### Prerequisites
 
-Download and install [Docker](https://www.docker.com/), ensure it is running.
+1. Download and install [Docker](https://www.docker.com/), ensure it is running.
+2. Unlimited rate limit Ethereum RPC endpoint and beacon chain RPC endpoint
 
 #### Run the node
 
 Specify a local path to store data for running the node, determine the EigenDA Nitro version, and then execute it.
 
 The node should now be running and looking for peers to sync.
+
+For a more detailed node run instruction, please refer to this link.\
+[https://github.com/hpp-io/node](https://github.com/hpp-io/node)
 
 #### **HPP Mainnet**
 
