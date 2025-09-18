@@ -27,7 +27,7 @@ Please note that:
 1. Download and install [Docker](https://www.docker.com/), ensure it is running.
 2. Unlimited rate limit Ethereum RPC endpoint and beacon chain RPC endpoint
 
-#### Run the node
+### Run the node
 
 Specify a local path to store data for running the node, determine the EigenDA Nitro version, and then execute it.
 
