@@ -148,7 +148,10 @@ docker run --rm -it \
   -v ./hpp-mainnet:/home/user/.arbitrum \
   -p 8547:8547 -p 8548:8548 \
   ghcr.io/layr-labs/nitro/nitro-node:v3.5.7 \
-  --conf.file /config/nodeConfig.json
+  --conf.file /config/nodeConfig.json \
+  --http.api "web3,net,eth,debug,txpool" \
+  --http.addr 0.0.0.0 \
+  --http.corsdomain "*"
 ```
 
 #### **HPP Sepolia (Testnet)**
@@ -258,7 +261,10 @@ Replace your rpc and node urls :
   -v ./hpp-sepolia:/home/user/.arbitrum \
   -p 8547:8547 -p 8548:8548 \
   ghcr.io/layr-labs/nitro/nitro-node:v3.5.7 \
-  --conf.file /config/nodeConfig.json
+  --conf.file /config/nodeConfig.json \
+  --http.api "web3,net,eth,debug,txpool" \
+  --http.addr 0.0.0.0 \
+  --http.corsdomain "*"
 </code></pre>
 
 HPP generates blocks only when there are transactions to process. So if you don't see new blocks coming in, it just means there's no transaction activity - your node is still syncing correctly.
