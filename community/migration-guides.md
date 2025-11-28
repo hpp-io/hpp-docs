@@ -4,8 +4,4 @@ The HPP Migration Portal enables holders of legacy AERGO and AQT tokens to seaml
 
 Whether you hold **AERGO** or **AQT**, our official HPP Migration Portal ensures a fast, secure, and seamless swap to the new standard.
 
-### Choose the Right Migration Guide
-
-For AERGO Holders: **Coming Soon**
-
-For AQT Holders: **Coming Soon**
+[**Migration Guide**](https://paper.hpp.io/guide/AERGO_Migration_Guide_ENG_vF.pdf)
