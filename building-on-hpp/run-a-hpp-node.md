@@ -29,7 +29,7 @@ Please note that:
 
 ### Run the node
 
-Specify a local path to store data for running the node, determine the EigenDA Nitro version, and then execute it.
+Specify a local path to store data for running the node, determine the Nitro version, and then execute it.
 
 The node should now be running and looking for peers to sync.
 
