@@ -43,5 +43,4 @@
 * [Arbitrum Bridge](https://bridge.arbitrum.io/?destinationChain=hpp-mainnet\&sourceChain=ethereum)
 * [Superbridge (HPP Sepolia)](https://hpp-sepolia-turdrv0107-c8a38bf8f82a8de2.testnets.rollbridge.app/)
 * [Block Explorer](https://explorer.hpp.io/)
-* [Faucet (ETH Sepolia)](https://faucet.conduit.xyz/)
 * [HPP Sepolia Faucet](https://faucet.hpp.io/)
