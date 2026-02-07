@@ -13,4 +13,4 @@ The tokenomics are designed to support a decentralized, scalable, and intelligen
 * **Ecosystem:** Funding for builders, integrations, and platform expansion.
 * **Community:** Rewards and programs designed to engage and grow the user base.
 
-_For detailed tokenomics, allocation breakdowns, and vesting schedules, please refer to the_ [_HPP Whitepaper_](https://paper.hpp.io/HPP_Whitepaper_ENG_vF.pdf)_._\
+_For detailed tokenomics, allocation breakdowns, and vesting schedules, please refer to the_ [_HPP Whitepaper_](https://paper.hpp.io/HPP_Whitepaper_ENG_vF.pdf)_._<br>

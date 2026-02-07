@@ -8,4 +8,4 @@ The HPP DAO is the decentralized governance layer of House Party Protocol, empow
 
 HPP DAO: [https://snapshot.box/%5C#/s:hpp.eth](https://snapshot.box//#/s:hpp.eth)&#x20;
 
-\
+<br>

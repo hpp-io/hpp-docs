@@ -17,4 +17,4 @@ The tokenomics are designed to support a decentralized, scalable, and intelligen
 * **Ecosystem:** Funding for builders, integrations, and platform expansion.
 * **Community:** Rewards and programs designed to engage and grow the user base.
 
-\
+<br>

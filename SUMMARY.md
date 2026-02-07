@@ -14,7 +14,8 @@
 ## Community
 
 * [Official Links](community/official-links.md)
-* [Migration Guides](community/migration-guides.md)
+* [Migration Guide](community/migration-guide.md)
+* [Staking Guide](community/staking-guide.md)
 * [Bridge](community/bridge.md)
 * [Airdrop](community/airdrop.md)
 * [Tokenomics](community/tokenomics.md)

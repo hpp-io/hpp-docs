@@ -8,4 +8,4 @@ The HPP Migration Portal enables holders of legacy AERGO and AQT to seamlessly c
 
 Migration ensures that your tokens are compatible with the HPP Mainnet, unlocking full access to features such as AI agent execution, governance participation, and ecosystem rewards.
 
-\
+<br>

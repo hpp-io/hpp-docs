@@ -6,4 +6,4 @@ Through open proposals, on-chain coordination, and enterprise-grade treasury man
 
 _Please refer to the current_ [_HPP DAO_](https://snapshot.box//#/s:hpp.eth) _on Snapshot._
 
-\
+<br>

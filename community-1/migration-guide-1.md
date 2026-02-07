@@ -10,8 +10,7 @@ With the official launch of House Party Protocol (HPP), all AERGO and AQT tokens
 * If your AERGO and AQT tokens are stored on a centralized exchange (CEX) that supports HPP, the swap will be processed automatically.
 * If you hold tokens in a personal wallet such as MetaMask or Aergo Connect, you must follow the manual migration steps below.
 * When migrating AQT, fractional amounts cannot be swapped, and only whole numbers are allowed.&#x20;
-* Only AQT (ERC-20) tokens can be migrated. Tokens on BNB Chain must first be transferred via the Alpha Quark bridge.\
-
+* Only AQT (ERC-20) tokens can be migrated. Tokens on BNB Chain must first be transferred via the Alpha Quark bridge.<br>
 
 HPP tokens will exist in three multi-chain formats, each with its own network and specific purpose:
 
@@ -62,10 +61,8 @@ In the initial phase, we will focus on stabilizing the token swap process and ex
 
 ### 🔗 Important Links
 
-* HPP Token Swap Portal:[ https://portal.hpp.io/\
-  ](https://portal.hpp.io/)(Will be activated on August 18, 2025, alongside the website update. Migration functionality will go live with official support.)
-* HPP Mainnet Bridge:[ https://portal.hpp.io/bridge\
-  ](https://portal.hpp.io/bridge)(Will be activated on August 18, 2025.)
+* HPP Token Swap Portal:[ https://portal.hpp.io/<br>](https://portal.hpp.io/)(Will be activated on August 18, 2025, alongside the website update. Migration functionality will go live with official support.)
+* HPP Mainnet Bridge:[ https://portal.hpp.io/bridge<br>](https://portal.hpp.io/bridge)(Will be activated on August 18, 2025.)
 * AQT Holder Migration Guide: TBD
 * Exchange-specific announcements: TBD
 
@@ -75,5 +72,4 @@ If you have any questions about the token swap, rebranding, or HPP in general, f
 
 * Email: hello@hpp.io
 * Telegram:[ https://t.me/aergoofficial\
-  \
-  ](https://t.me/aergoofficial)
+  <br>](https://t.me/aergoofficial)
