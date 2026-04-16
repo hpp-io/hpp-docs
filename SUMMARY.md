@@ -14,12 +14,12 @@
 ## Community
 
 * [Official Links](community/official-links.md)
+* [Tokenomics](community/tokenomics.md)
 * [Migration Guide](community/migration-guide.md)
 * [Staking Guide](community/staking-guide.md)
 * [Bridge](community/bridge.md)
 * [Airdrop](community/airdrop.md)
-* [Tokenomics](community/tokenomics.md)
-* [DAO](community/dao.md)
+* [HPP DAO](community/hpp-dao.md)
 
 ***
 
