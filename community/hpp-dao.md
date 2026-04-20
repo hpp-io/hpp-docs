@@ -10,7 +10,7 @@ HPP DAO is the decentralized governance body of House Party Protocol, an AI-firs
 
 As the protocol matures, HPP DAO ensures that decision-making remains decentralized, stakeholder interests remain aligned, and governance outcomes remain predictable for everyone involved.
 
-_Please refer to the_ _HPP Agora_ _for more information._
+_Please refer to the_ [_**HPP DAO Governance Framework**_](https://paper.hpp.io/docs/HPP_DAO_Governance_Framework_260417.pdf) _for more information._
 
 #### Five Core Principles
 

@@ -17,9 +17,9 @@
 * [Tokenomics](community/tokenomics.md)
 * [Migration Guide](community/migration-guide.md)
 * [Staking Guide](community/staking-guide.md)
+* [HPP DAO](community/hpp-dao.md)
 * [Bridge](community/bridge.md)
 * [Airdrop](community/airdrop.md)
-* [HPP DAO](community/hpp-dao.md)
 
 ***
 
