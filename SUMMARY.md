@@ -15,9 +15,9 @@
 
 * [Official Links](community/official-links.md)
 * [Tokenomics](community/tokenomics.md)
+* [HPP DAO](community/hpp-dao.md)
 * [Migration Guide](community/migration-guide.md)
 * [Staking Guide](community/staking-guide.md)
-* [HPP DAO](community/hpp-dao.md)
 * [Bridge](community/bridge.md)
 * [Airdrop](community/airdrop.md)
 

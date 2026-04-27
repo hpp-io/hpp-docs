@@ -1,5 +1,6 @@
 ---
 description: The AI-Powered Command Center for Intelligent Asset Management
+hidden: true
 ---
 
 # ArenAI

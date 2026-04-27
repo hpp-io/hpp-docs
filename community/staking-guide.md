@@ -19,10 +19,11 @@ Most staking programs are “stake, earn” and your APR mainly changes with tot
 * Your stake amount determines your tier/multiplier
 * Season 1 Credit is designed to carry forward into future Seasons
 
-**Season 2 (planned): Holding duration Credit**
+**Season 2: Holding duration Credit**
 
-* Rewards how long you remain staked
-* Longer consistency can increase reward power
+* Rewards how long you remain staked, not just how much
+* Calculated via daily snapshot, based on consecutive staking time
+* Stacks on top of Season 1 bonuses
 
 **Season 3 (planned): DAO activity Credit**
 
