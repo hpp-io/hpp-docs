@@ -34,5 +34,4 @@ At its core, HPP is built for secure, verifiable, and programmable data exchange
 
 ### 4. Powered by Strategic Ecosystem Partners
 
-HPP’s architecture is co-developed and secured in collaboration with partners including BitGo, EigenLayer (EigenDA), Conduit, Orbiter Finance, Aergo, AQT, Booost, and W3DB, ensuring security, data availability, interoperability, and domain expertise from day one.
-
+HPP’s architecture is co-developed and secured in collaboration with partners including BitGo, Conduit, Orbiter Finance, Aergo, AQT, Booost, and W3DB, with AnyTrust DA supporting efficient data availability from day one.
