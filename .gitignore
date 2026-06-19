@@ -1,0 +1,5 @@
+# Local Claude Code / MCP config — kept local, not part of the GitBook site
+.mcp.json
+
+# Playwright MCP snapshot cache
+.playwright-mcp/
