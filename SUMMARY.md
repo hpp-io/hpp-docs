@@ -21,16 +21,6 @@
 * [Bridge](community/bridge.md)
 * [Airdrop](community/airdrop.md)
 
-***
-
-* [Community](community-1/README.md)
-  * [Migration Guide](community-1/migration-guide.md)
-  * [Bridge](community-1/bridge.md)
-  * [Airdrop](community-1/airdrop.md)
-  * [Tokenomics](community-1/tokenomics.md)
-  * [DAO](community-1/dao.md)
-  * [Migration Guide](community-1/migration-guide-1.md)
-
 ## Building on HPP
 
 * [Deploy a Smart Contract](building-on-hpp/deploy-a-smart-contract.md)
