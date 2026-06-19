@@ -1,0 +1,13 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  community-1/dao: community/hpp-dao.md
+  community-1/tokenomics: community/tokenomics.md
+  community-1/migration-guide: community/migration-guide.md
+  community-1/migration-guide-1: community/migration-guide.md
+  community-1/bridge: community/bridge.md
+  community-1/airdrop: community/airdrop.md
