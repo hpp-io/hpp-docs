@@ -11,6 +11,10 @@
 * [Token Address](getting-started/hpp-contracts.md)
 * [🦊 Connect to HPP](getting-started/connect-to-hpp.md)
 
+## Ecosystem
+
+* [Overview](ecosystem/README.md)
+
 ## Community
 
 * [Official Links](community/official-links.md)
