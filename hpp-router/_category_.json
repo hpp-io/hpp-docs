@@ -1,0 +1,11 @@
+{
+  "label": "HPP Router",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "HPP Router",
+    "description": "Developer documentation for HPP Router \u2014 an OpenAI-compatible LLM API gateway with smart routing, prepaid quota, and usage tracking."
+  }
+}

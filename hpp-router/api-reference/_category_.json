@@ -1,0 +1,11 @@
+{
+  "label": "API Reference",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "API Reference",
+    "description": "The HPP Router Consumer API contract, derived from the OpenAPI specification."
+  }
+}

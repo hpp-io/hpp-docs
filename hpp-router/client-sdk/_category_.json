@@ -1,0 +1,11 @@
+{
+  "label": "Client SDK",
+  "position": 8,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Client SDK",
+    "description": "Official client SDKs for the HPP Router Consumer API."
+  }
+}
